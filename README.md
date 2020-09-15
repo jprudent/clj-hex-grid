@@ -21,6 +21,20 @@ A Clojure library implementing the algorithms specified in http://www.redblobgam
 1. Wraparound maps - To do
 1. Pathfinding - Done (cube coordinates)
 
+
+## Contributing
+
+### Run tests
+
+Tests rely on [Midje](https://github.com/marick/Midje) and
+integrated through a plugin to Leiningen.
+
+To run tests on development mode
+
+```shell script
+lein midje :autotest
+```
+
 ## License
 
 Copyright © 2015 FIXME
